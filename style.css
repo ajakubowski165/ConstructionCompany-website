@@ -4,6 +4,7 @@
     --yellow:rgba(241, 195, 67, 0.9);
     --cream:rgba(255, 229, 158, 0.699);
     --lightcream:rgb(253, 236, 188);
+    --whitebrick:rgba(241, 241, 241,0.3);
     --brown:rgba(49, 36, 8, 0.9);
 }
 
@@ -149,6 +150,58 @@ i.nav__icon{
     position: relative;
 }
 
+.realizacje_container{
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    margin: 0 auto;
+    height: 70vh;
+    background-image:url(photos/white-bricks.jpg);
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.realizacje_container h2{
+    color: var(--brown); 
+    text-align: center; 
+    position: absolute;
+    top: 2%; 
+    left: 50%; 
+    transform: translateX(-50%);
+}
+
+.realizacje_image_section{
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    transform: translate(0, -50%);
+    width: 35%; 
+}
+
+.realizacje_image_section img{
+    max-width: 100%;
+    border: 2px solid black;
+}
+
+.realizacje_text_section {
+    position: absolute;
+    text-align: justify;
+    top: 50%;
+    right: 7%;
+    transform: translate(0, -50%);
+    width: 35%; 
+    height: 57%;
+    font-size: 0.8rem;
+    background-color: var(--whitebrick);
+    border: 2px solid black;
+}
+
+.realizacje_text_section p {
+    color: var(--brown);
+}
+
 .image_section{
     position: absolute;
     top: 50%;
@@ -156,12 +209,11 @@ i.nav__icon{
     transform: translate(0, -50%);
     width: 40%; 
     height: 57%;
-    border: 2px solid black;
-
 }
 
 .image_section img{
     max-width: 100%;
+    border: 2px solid black;
 }
 
 .text_section {
@@ -172,5 +224,6 @@ i.nav__icon{
     transform: translate(0, -50%);
     width: 40%; 
     height: 57%;
+    font-size: 0.8rem;
 }
 
