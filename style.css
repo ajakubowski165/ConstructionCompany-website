@@ -41,7 +41,6 @@ header{
 
 .section{
     padding:6rem 0 2rem;
-    height:100vh;
 }
 
 .section__title{
@@ -68,12 +67,13 @@ header{
 .nav__list{
     display: flex;
     justify-content: space-between;
-    column-gap: 5rem;
+    column-gap: 2rem;
 }
 
 i.nav__icon{
     display:none;
 }
+
 
 
 @media screen and (max-width : 768px){
@@ -110,34 +110,67 @@ i.nav__icon{
         flex-direction: column;
         align-items:center;
         color:#454343;
-        row-gap:0.25rem;
-    }
-    
-    .nav__link:hover{
-        color:#5b75ad;
     }
 }
+ 
 
+.container {
+    position: relative;
+    text-align: center;
+    height: 90vh;
+}
 
 .main-photo{
     width:100%;
-    background-image: url("photos/salon2.jpg");
-    background-size: 100vw;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 0.9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);;
+    height:70vh;
+    opacity: 0.6;
 }
-
 
 .main-text{
     opacity: 1;
     color: white;
-    padding: 200px;
     font-size: 4vw;
     text-align: center;
     -webkit-text-stroke: 2px black;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
 }
+
+.mini_container{
+    border: 2px solid black;
+    width: 75%;
+    margin: 0 auto;
+    height: 60vh;
+    background:  linear-gradient(to right top,#1b0c02ee,black);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.image_section{
+    position: absolute;
+    top: 50%;
+    right: 7%;
+    transform: translate(0, -50%);
+    width: 40%; 
+    height: 57%;
+    border: 2px solid black;
+
+}
+
+.image_section img{
+    max-width: 100%;
+}
+
+.text_section {
+    position: absolute;
+    text-align: justify;
+    top: 50%;
+    left: 7%;
+    transform: translate(0, -50%);
+    width: 40%; 
+    height: 57%;
+}
+
