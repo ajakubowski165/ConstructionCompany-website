@@ -257,3 +257,64 @@ i.nav__icon{
     height: 57%;
     font-size: 0.8vw;
 }
+
+.galeria__button {
+    padding: 1% 2%;
+    font-size: 1rem;
+    background-color: var(--brown);
+    color: var(--cream);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height:10%;
+    position:absolute; 
+    margin-left: -6%;
+    left:50%;
+    bottom:5%;
+}
+
+.galeria__button:hover {
+    background-color: var(--lightbordo);
+}
+
+.about__button {
+    padding: 1% 2%;
+    font-size: 1rem;
+    background-color: var(--brown);
+    color: var(--cream);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height:10%;
+    position:absolute; 
+    margin-left: -4%;
+    left:50%;
+    bottom:5%;
+}
+
+.about__button:hover {
+    background-color: var(--lightbordo);
+}
+
+
+.oferta__button {
+    padding: 1% 2%;
+    font-size: 1rem;
+    background-color: var(--brown);
+    color: var(--cream);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height:10%;
+    position:absolute; 
+    margin-left: -7%;
+    left:50%;
+    bottom:5%;
+}
+
+.oferta__button:hover {
+    background-color: var(--lightbordo);
+}
