@@ -183,10 +183,6 @@ i.nav__icon{
     #container .card{
         width: 48%;
     }
-    #container .card:last-child{
-        margin-left: auto;
-        margin-right: auto;
-    }
 }
 
 @media (min-width: 1200px) {
@@ -200,7 +196,6 @@ i.nav__icon{
     #container .card{
         width: 31%;
     }
-
 }
 
 @media (min-width: 1400px) {
